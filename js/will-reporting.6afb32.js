@@ -6,14 +6,5 @@ var wl;
 $(function(){
 r=function(){dpi=window.devicePixelRatio;};
 if(!window.HTMLPictureElement){r();}
-wl=new woolite();
-wl.init();
-wl.addAnimation($('.js3')[0], "1.00s", "2.00s", 1, 100);
-wl.addAnimation($('.js4')[0], "1.00s", "3.00s", 1, 100);
-wl.addAnimation($('.js5')[0], "1.00s", "3.00s", 1, 100);
-wl.addAnimation($('.js6')[0], "1.00s", "5.00s", 1, 100);
-wl.addAnimation($('.js7')[0], "1.00s", "6.00s", 1, 100);
-wl.addAnimation($('.js8')[0], "1.00s", "7.00s", 1, 100);
-wl.start();
 
 });
